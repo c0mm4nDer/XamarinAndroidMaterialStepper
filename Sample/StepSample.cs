@@ -29,7 +29,7 @@ namespace Sample
             if (savedInstanceState != null)
                 i = savedInstanceState.GetInt(CLICK, 0);
 
-            button.Text = (Html.FromHtml("Tap <b>" + i + "</b>").ToString());
+            button.Text = (Html.FromHtml("Tap <b>" +  i + "</b>").ToString());
 
             button.Click += (view, e) =>
             {
