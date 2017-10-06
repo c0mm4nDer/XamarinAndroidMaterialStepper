@@ -1,7 +1,7 @@
 # Xamarin Android Material Stepper 
 
 
-Another labrary porttion project for Stepper,But that's really great. You can find orgial lib in [material-stepper
+Another labrary porttion project for Stepper,But that's really great. You can find original lib in [material-stepper
 ](https://github.com/fcannizzaro/material-stepper)
 
 I completly convert java codes to c# and now works perfect.
