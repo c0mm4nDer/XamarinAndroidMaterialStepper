@@ -79,7 +79,11 @@ namespace XamarinMaterialStepperLib.style
             if (!showPrevButton)
                 mPreviousButton.Visibility = (ViewStates.Gone);
 
-            mPreviousButton.Click += delegate { onPrevious(); };
+            mPreviousButton.Click += delegate {
+                AbstractStep step = mSteps.getCurrent();
+                step.onPrevious();
+                onPrevious();
+            };
 
             onUpdate();
         }
@@ -240,6 +244,8 @@ namespace XamarinMaterialStepperLib.style
         {
             if (updateDoneCurrent())
             {
+                AbstractStep step = mSteps.getCurrent();
+                step.onNext();
                 onNext();
                 updateScrolling(mSteps.current() + 1);
             }

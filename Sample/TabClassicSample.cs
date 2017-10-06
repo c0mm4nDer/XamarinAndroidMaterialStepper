@@ -28,6 +28,8 @@ namespace Sample
             setDisabledTouch();
             setPreviousVisible();
 
+            
+
             addStep(createFragment(new StepSample()));
             addStep(createFragment(new StepSample()));
             addStep(createFragment(new StepSample()));

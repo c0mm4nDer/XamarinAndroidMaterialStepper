@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xamarin.Android.Itium.MaterialStepper</id>
+    <version>1.0.1</version>
+    <title>Xamarin android material stepper</title>
+    <authors>Sayed Amir Ahmadi</authors>
+    <owners>Itium Inc.</owners>
+    <licenseUrl>https://github.com/c0mm4nDer/XamarinAndroidMaterialStepper</licenseUrl>
+    <projectUrl>https://github.com/c0mm4nDer/XamarinAndroidMaterialStepper</projectUrl>
+    <iconUrl>http://itium.ir/images/itium.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Great material stepper for xamarin android</description>
+    <releaseNotes>Version 1.0.1.0</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Xamarin Android stepper</tags>
+    <dependencies>
+      <dependency id="Xamarin.Android.Support.v7.CardView" version="24.2.1" />
+      <dependency id="Xamarin.Android.Support.v7.AppCompat" version="24.2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\XamarinMaterialStepperLib.dll" target="lib"/>
+  </files>
+</package>
