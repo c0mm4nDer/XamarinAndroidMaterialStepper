@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="material_stepper_background">#e0e0e0</color>
+    <color name="material_stepper_global">#2196F3</color>
+    <color name="material_stepper_global_dark">#1976D2</color>
+    <color name="material_stepper_error">#F44336</color>
+    <color name="material_stepper_connector">#BDBDBD</color>
+    <color name="material_stepper_bottom_bar">#FFFFFF</color>
+    <color name="material_stepper_top_bar">#FFFFFF</color>
+    <color name="material_stepper_bottom_bar_text">#757575</color>
+    <color name="material_stepper_bottom_bar_button_pressed">#08000000</color>
+    <color name="material_stepper_top_bar_text">#000</color>
+
+    <!-- active step -->
+
+    <color name="material_stepper_active_text">#57000000</color>
+
+    <!-- inactive step -->
+
+    <color name="material_stepper_inactive_text">#26000000</color>
+    <color name="material_stepper_inactive_circle_text">#ffffff</color>
+
+    <!-- optional step -->
+
+    <color name="material_stepper_optional">#bdbdbd</color>
+    <color name="material_stepper_circle">#bdbdbd</color>
+
+</resources>

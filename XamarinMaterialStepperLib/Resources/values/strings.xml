@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MaterialStepper</string>
+    <string name="ms_prev">PREV</string>
+    <string name="ms_next">NEXT</string>
+    <string name="ms_end">COMPLETE</string>
+    <string name="ms_continue">CONTINUE</string>
+    <string name="ms_optional">Optional</string>
+    <string name="ms_text_step">Step $current of $total</string>
+</resources>

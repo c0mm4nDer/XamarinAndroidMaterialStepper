@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="material_stepper_bottombar_font">16sp</dimen>
+    <dimen name="material_stepper_optional_font">12sp</dimen>
+    <dimen name="material_stepper_optional_circle_font">12sp</dimen>
+    <dimen name="material_stepper_step_active_font">14sp</dimen>
+    <dimen name="material_stepper_step_circle">24dp</dimen>
+    <dimen name="material_stepper_connector">1dp</dimen>
+</resources>

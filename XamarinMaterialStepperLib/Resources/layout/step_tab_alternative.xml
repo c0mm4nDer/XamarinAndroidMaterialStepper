@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="72dp"
+    android:orientation="vertical"
+    android:paddingBottom="24dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="24dp">
+
+    <RelativeLayout
+        android:id="@+id/all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/step"
+                android:layout_width="@dimen/material_stepper_step_circle"
+                android:layout_height="@dimen/material_stepper_step_circle"
+                android:background="@drawable/circle_bg"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="@dimen/material_stepper_optional_circle_font" />
+
+            <ImageView
+                android:id="@+id/done"
+                android:layout_width="@dimen/material_stepper_step_circle"
+                android:layout_height="@dimen/material_stepper_step_circle"
+                android:background="@drawable/circle_bg"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_done_white_18dp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:alpha=".87"
+                android:fontFamily="sans-serifi-medium"
+                android:textColor="@color/material_stepper_active_text"
+                android:textSize="@dimen/material_stepper_step_active_font" />
+
+            <TextView
+                android:id="@+id/optional"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/ms_optional"
+                android:textColor="@color/material_stepper_optional"
+                android:textSize="@dimen/material_stepper_optional_font"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="56dp"
+        android:layout_height="@dimen/material_stepper_connector"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/all"
+        android:layout_toRightOf="@+id/all"
+        android:background="@color/material_stepper_connector" />
+
+</RelativeLayout>
