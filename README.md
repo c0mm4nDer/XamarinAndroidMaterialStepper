@@ -8,7 +8,7 @@ https://www.nuget.org/packages/Xamarin.Android.Itium.MaterialStepper/1.0.0
 Another library porttion project for Stepper,But that's really great. You can find original lib in [material-stepper
 ](https://github.com/fcannizzaro/material-stepper)
 
-I completly convert java codes to c# and now works perfect.
+I completely convert java codes to c# and now works perfect.
 I also add some changes in TabStepper class and fix checkmark bug. 
 
 this project really great. enjoy it
