@@ -38,7 +38,7 @@ Test system:
 
 ## Features ##
 ### Version 1.0.2 ###
-- Add permission feild for step go to next step
+- Add permission feild for controlling go to next step
 
 ### Version 1.0.1 ###
 - Fix interfaces override methods
