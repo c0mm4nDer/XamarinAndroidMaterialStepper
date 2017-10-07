@@ -12,6 +12,8 @@ namespace XamarinMaterialStepperLib
     public abstract class AbstractStep: Fragment,Nextable
     {
         protected BaseStyle mStepper;
+        
+        public bool PermissionNext { get; set; }
 
         public AbstractStep stepper(BaseStyle mStepper)
         {
@@ -56,7 +58,10 @@ namespace XamarinMaterialStepperLib
             return "No error";
         }
 
-        
+        public virtual void OnNotPermission()
+        {
+
+        }
 
         public virtual bool nextIf()
         {

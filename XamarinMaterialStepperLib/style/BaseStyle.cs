@@ -209,6 +209,12 @@ namespace XamarinMaterialStepperLib.style
         {
             AbstractStep step = mSteps.getCurrent();
 
+            if (!step.PermissionNext)
+            {
+                step.OnNotPermission();
+                return;
+            }
+
             if (!step.isOptional() && !step.nextIf())
             {
                 mErrorString = step.error();

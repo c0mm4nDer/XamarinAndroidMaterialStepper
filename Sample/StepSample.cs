@@ -37,10 +37,23 @@ namespace Sample
                 mStepper.getExtras().PutInt(CLICK, i);
             };
 
+            //Permission Go To Next Page
+            PermissionNext = true;
+
             return v;
         }
 
-        
+        public override void OnNotPermission()
+        {
+            base.OnNotPermission();
+            Console.WriteLine("Not Permission");
+            Toast.MakeText(Activity, "Not Permission", ToastLength.Short).Show();
+
+
+            //Now Allow For Test
+            PermissionNext = true;
+        }
+
 
         public override void OnSaveInstanceState(Bundle outState)
         {
